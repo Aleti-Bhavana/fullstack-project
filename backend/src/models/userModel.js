@@ -29,7 +29,7 @@ const User = {
         });
     },
 
-    // Get all users (optional)
+    
     getAll: (callback) => {
         const sql = `SELECT id, username, role FROM users`;
         db.all(sql, [], (err, rows) => {
